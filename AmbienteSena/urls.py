@@ -29,9 +29,9 @@ from .views.ingreso import RegistrarIngresos, ListarIngresos, RegistrarSalida
 urlpatterns = [
     path('',home),
     path('admin/', admin.site.urls),
-    path('Ambientes/RegistrarAmbiente',RegistrarAmbiente),
-    path('Ambientes/ListaAmbientes', ListarAmbientes),
-    path('Ambientes/EliminarAmbiente', EliminarAmbiente),
+    path('Ambientes/RegistrarAmbiente/',RegistrarAmbiente),
+    path('Ambientes/ListaAmbientes/', ListarAmbientes),
+    path('Ambientes/EliminarAmbiente/', EliminarAmbiente),
     path('Ambientes/ActualizarAmbiente/<int:id_ambiente>', ActualizarAmbiente),
     path('instructores/RegistrarInstructor', RegistrarInstructor),
     path('instructores/ListarInstructores',ListarInstructores),
