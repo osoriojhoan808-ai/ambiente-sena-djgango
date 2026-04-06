@@ -69,7 +69,7 @@ ROOT_URLCONF = 'AmbienteSena.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['AmbienteSena\Templates'],
+        'DIRS': ['AmbienteSena/Templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
